@@ -1,0 +1,14 @@
+{
+  "name": "@voxie-actions/no-merge-commits",
+  "private": true,
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voxie-actions/no-merge-commits.git"
+  },
+  "homepage": "https://github.com/voxie-actions/no-merge-commits#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+name: "No Merge Commits"
+description: "Flags pull requests that contain merge commits."
+author: "Voxie"
+branding:
+  icon: "alert-circle"
+  color: "red"
+
+inputs:
+  repo-token:
+    description: "Token for the repo. Can be passed in using {{ secrets.GITHUB_TOKEN }}."
+    required: true
+    default: ${{ github.token }}
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
