@@ -12,7 +12,7 @@ name: Check Pull Request
 
 jobs:
   pr-check:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Check For Merge Commits
